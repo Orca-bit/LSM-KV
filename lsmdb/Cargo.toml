@@ -1,0 +1,13 @@
+[package]
+name = "lsmdb"
+version = "0.1.0"
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+quick-error = "1.2.3"
+crossbeam-channel = "0.5.1"
+snap = "1.0.5"
+rand = "0.8.4"
+bytes = "1.0.1"
