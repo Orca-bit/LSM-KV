@@ -1,5 +1,7 @@
 #[macro_use]
 mod error;
+mod db;
+mod filter;
 mod iterator;
 mod mem;
 mod snapshot;
