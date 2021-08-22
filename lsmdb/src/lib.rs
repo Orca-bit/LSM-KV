@@ -5,6 +5,7 @@ mod filter;
 mod iterator;
 mod mem;
 mod snapshot;
+mod sstable;
 mod util;
 
 pub use error::{Error, Result};
