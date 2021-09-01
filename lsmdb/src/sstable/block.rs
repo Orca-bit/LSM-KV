@@ -64,9 +64,11 @@ pub struct BlockIterator<C: Comparator> {
     cmp: C,
     err: Option<Error>,
     data: Arc<Vec<u8>>,
+    // restarts array starting offset
     restarts: u32,
     restarts_len: u32,
     restarts_index: u32,
+    // block offset of current entry start
     current: u32,
     shared: u32,
     not_shared: u32,

@@ -1,9 +1,9 @@
+use crate::filter::FilterPolicy;
 use crate::util::coding::{decode_fixed_64, put_fixed_64};
-use std::fmt::{Debug, Formatter, Error};
 use crate::util::varint::VarintU32;
 use crate::Comparator;
 use std::cmp::Ordering;
-use crate::filter::FilterPolicy;
+use std::fmt::{Debug, Error, Formatter};
 use std::sync::Arc;
 
 /// The max key sequence number. The value is 2^56 - 1 because the seq number
